@@ -4,9 +4,9 @@ class DetectLifeActivity {
 	private $name;
 	private $litersDaily;
 	private $computerDaily;
-    public function __construct() {
-        //Main constructor (blank)
-    }
+    	public function __construct() {
+		//Main constructor (blank)
+    	}
 	public function setName($setName) {
 		$this->name = $setName;
 	}
