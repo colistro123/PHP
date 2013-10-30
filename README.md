@@ -8,6 +8,8 @@ History:
 
 File name            -  Creation Date
 =====================================
-invalidalienplanets.php -  8/25/2013
+md5hashing.php          -   10/02/2013
 
-returnlifethings.php    -  7/30/2013
+invalidalienplanets.php -   8/25/2013
+
+returnlifethings.php    -   7/30/2013
