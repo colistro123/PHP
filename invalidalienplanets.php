@@ -1,4 +1,5 @@
 <?php
+//Github oesn't want to indent it.
 class MakeStrings {
     public function __construct() {
         //Main constructor (blank)
