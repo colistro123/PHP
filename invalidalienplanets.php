@@ -1,7 +1,7 @@
 <?php
 class MakeStrings {
     public function __construct() {
-        //Main constructor (blank)
+        //Main constructor (blank for now)
     }
 	public function verifyPlanetUser($stringparse) {
         $myValue = NULL; //Initialize myValue.. so it doesn't throw warnings
