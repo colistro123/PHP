@@ -45,7 +45,7 @@ function getTimesFlagged($messageid) {
 	$num_flags = mysqli_num_rows($resultflags);
 	return $num_flags;
 }
-function getTimesLiked($messageid) {
+function getTimesLiked($messageid) {	//Used for messages only
 	$querylikes = "SELECT id, likeid, author, liker, likestatus, ip FROM likes where likeid = '". $messageid ."'";
 	$resultlikes = gs_query($querylikes);
 	$num_likes = mysqli_num_rows($resultlikes);
