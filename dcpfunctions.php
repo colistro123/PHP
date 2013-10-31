@@ -1,9 +1,9 @@
 <?php
 	/* 
 		****
-		Everything gets escaped before it reaches any of these functions. Which is better.
+		Everything gets escaped before it reaches any of these functions.
 		Uses mysqli as the database driver since mysql_ is deprecated and very prone to SQL injection attacks.
-		I should've used parameterized SQL queries.
+		I should've used parameterized SQL queries which are better when dealing with security issues.
 		For some reason github doesn't seem to indent the code correctly, after I copy it from notepad++ to here.
 		****
 	*/
