@@ -28,4 +28,5 @@ class MakePasswords {
 $createString = new MakePasswords();
 $value = $createString->hashPassword("123456");
 echo "Value: $value\n";
+//End of file
 ?>
