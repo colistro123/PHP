@@ -4,6 +4,7 @@
 		Everything gets escaped before it reaches any of these functions. Which is better.
 		Uses mysqli as the database driver since mysql_ is deprecated and very prone to SQL injection attacks.
 		I should've used parameterized SQL queries.
+		For some reason github doesn't seem to indent the code after I copy it from notepad++ to here.
 		****
 	*/
 	
