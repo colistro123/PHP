@@ -4,7 +4,7 @@
 		Everything gets escaped before it reaches any of these functions. Which is better.
 		Uses mysqli as the database driver since mysql_ is deprecated and very prone to SQL injection attacks.
 		I should've used parameterized SQL queries.
-		For some reason github doesn't seem to indent the code after I copy it from notepad++ to here.
+		For some reason github doesn't seem to indent the code correctly, after I copy it from notepad++ to here.
 		****
 	*/
 	
@@ -44,7 +44,7 @@
 			echo "<option value='-2' selected>Resume</option>";
 			echo '</select>';
 			echo "<div id='donationbox' class='donationbox'>";
-    		echo '<p style="text-align: left">&nbsp;Package: <select size="1" onchange="window.top.window.showdonationtip(event,3,this.value);" name="charslot" class="charslot" id="package">';
+    			echo '<p style="text-align: left">&nbsp;Package: <select size="1" onchange="window.top.window.showdonationtip(event,3,this.value);" name="charslot" class="charslot" id="package">';
 			for ($i = 1; $i <= $MAX_PACKAGES; $i++) {
 				echo "<option value='$i'>".getPackageInformation($i)."</option>";
 			}
